@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #004785;
+  position: relative;
+}
+
+.container {
+  border: 1px maroon dotted;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (max-width: 1200px) {
+  .child svg {
+    width: 460px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .child svg {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .child svg {
+    width: 200px;
+  }
+}
